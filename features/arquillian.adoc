@@ -12,7 +12,7 @@
 image::images/features-arquillian-junittestwizard.png[Arquillian JUnit Test Wizard]
 
 Arquillian Eclipse is a JBoss Tools component that makes it simple to create and maintain Arquillian tests.
-It provides adding Arquillian artifacts to a project as well as creating, validating and running Arquillian JUnit tests.
+It provides the ability to add Arquillian artifacts to a project as well as create, validate and run Arquillian JUnit tests.
 
 == Arquillian support
 === Add Arquillian support to an existing project
@@ -24,7 +24,7 @@ You can add Arquillian capabilities to the existing Eclipse project and control 
 === Create an Arquillian JUnit test
 image::images/features-arquillian-junittestwizard.png[Arquillian JUnit Test Wizard]
 
-Arquilian Eclipse enables you to create Arquillian JUnit tests and generate a deployment method.
+Arquillian Eclipse helps you create Arquillian JUnit tests and generate a deployment method.
 
 There is also the *Run As/Debug As>Arquillian JUnit Test* action that checks if the Arquillian test environment is valid.
 
@@ -32,7 +32,7 @@ There is also the *Run As/Debug As>Arquillian JUnit Test* action that checks if 
 === Validate the Arquillian environment
 image::images/features-arquillian-arquillianvalidator.png[Arquillian validator]
 
-The arquillian validator finds the following issues:
+The Arquillian validator finds the following issues:
 
 * classes that are used in a test, but aren't included in the deployment
 * tests without a deployment method and/or a test method
@@ -41,8 +41,8 @@ The arquillian validator finds the following issues:
 
 The most of the issues have an Eclipse quick fix.
 
-== Arquillia Cruiser
+== Arquillian Cruiser
 === Review a Shrinkwrap archive
-image::images/features-arquillian-arquillianview.png[Arquillia Cruiser]
+image::images/features-arquillian-arquillianview.png[Arquillian Cruiser]
 
-Review the content of a Shrinkwrap archive using the Arquillia Cruiser view.
+You can view the contents of a Shrinkwrap archive using the Arquillian Cruiser view.
